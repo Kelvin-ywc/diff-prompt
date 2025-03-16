@@ -1,0 +1,11 @@
+diffusers==0.29.2
+numpy==1.22.3
+Pillow==9.0.1
+Pillow==11.1.0
+pycocotools==2.0.7
+pytorch_lightning==1.5.9
+PyYAML==6.0.2
+PyYAML==6.0.2
+torch==1.10.2
+torchsummary==1.5.1
+torchvision==0.11.3
