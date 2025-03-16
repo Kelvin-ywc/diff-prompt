@@ -42,3 +42,4 @@ dist/
 DiT-main/
 GLIP/
 unique_vae/logs/*
+unique-vae/data/*
