@@ -38,6 +38,7 @@ python quick_start.py
 cd DiT-main
 pip install -r requirements.txt
 ```
+Place 'bert-base-uncased' under DiT-main dir.
 ### Training Script
 ```
 torchrun --nnodes=1 --nproc_per_node 4 train.py --global-batch-size 128
