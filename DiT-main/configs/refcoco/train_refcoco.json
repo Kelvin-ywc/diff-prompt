@@ -1,0 +1,4 @@
+{
+    "data_path": "/home1/yanweicai/DATA/CV/coco",
+    "annotation_path": ["/home1/yanweicai/DATA/CV/coco/annotations/refcoco-unc/instances.json"]
+}

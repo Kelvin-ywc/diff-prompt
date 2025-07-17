@@ -2,7 +2,7 @@
 <!-- Code to be released soon. -->
 ## TODO
 - [x] Release code for Stage one, training code for Mask-VAE.
-- [ ] Release code for Stage two, training code for Diff-Prompt.
+- [x] Release code for Stage two, training code for Diff-Prompt.
 - [ ] Release code for Stage three, integrating Diff-Prompt with GLIP.
 ## Stage one: training Mask-VAE
 We use AutoencoderKL from diffusers for training Mask-VAE.
@@ -33,6 +33,22 @@ python quick_start.py
 ```
 
 ## Stage two: training Diff-Prompt
+### Environment Setup
+```
+cd DiT-main
+pip install -r requirements.txt
+```
+### Training Script
+```
+torchrun --nnodes=1 --nproc_per_node 4 train.py --global-batch-size 128
+```
+Model weights are saved in results dir.
+### save model to huggingface
+replace ckpt_path,repository_id,HF_TOKEN in this file.
+```
+python save_dit_model_safe.py
+```
+We provide pre-trained model [here](https://huggingface.co/oaaoaa/mask_dit).
 ## Stage three: integrating Diff-Prompt with GLIP
 
 ## Citation

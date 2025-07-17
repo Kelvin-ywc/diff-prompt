@@ -184,8 +184,8 @@ class VAEDataset(LightningDataModule):
         )
      
 class Cfg():
-    # annotation_files = "/home1/yanweicai/DATA/CV/coco/annotations/refcoco-unc/instances.json"
-    annotation_files = './asset/instances.json'
+    annotation_files = "/home1/yanweicai/DATA/CV/coco/annotations/refcoco-unc/instances.json"
+    # annotation_files = './asset/instances.json'
     train_annotation_files = [annotation_files, ]
     train_dataset_types = ['train']
     test_annotation_files = [annotation_files, annotation_files]

@@ -20,7 +20,9 @@ dist/
 # ipython/jupyter notebooks
 *.ipynb
 **/.ipynb_checkpoints/
-
+**/.vscode
+**/.ipynb_checkpoints
+**/__pycache__
 # Editor temporaries
 *.swn
 *.swo
@@ -39,7 +41,11 @@ dist/
 # Custom
 *.custom.py
 
-DiT-main/
+DiT-main/results
+DiT-main/cmd
+DiT-main/ckpt
+DiT-main/bert-base-uncased
+
 GLIP/
 unique_vae/logs/*
 unique_vae/data/*
