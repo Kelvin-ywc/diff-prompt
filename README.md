@@ -3,7 +3,7 @@
 ## TODO
 - [x] Release code for Stage one, training code for Mask-VAE.
 - [x] Release code for Stage two, training code for Diff-Prompt.
-- [ ] Release code for Stage three, integrating Diff-Prompt with GLIP.
+- [x] Release code for Stage three, integrating Diff-Prompt with GLIP.
 ## Stage one: training Mask-VAE
 We use AutoencoderKL from diffusers for training Mask-VAE.
 ### Environment Setup
