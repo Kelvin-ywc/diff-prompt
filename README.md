@@ -51,7 +51,11 @@ python save_dit_model_safe.py
 ```
 We provide pre-trained model [here](https://huggingface.co/oaaoaa/mask_dit).
 ## Stage three: integrating Diff-Prompt with GLIP
-
+Follow [GLIP](https://github.com/microsoft/GLIP) to build maskrcnn_benckmark package. Prepare bert-base-uncased under GLIP dir and place dataset under GLIP/DATASET dir.
+### Training Script
+```
+sh dif_prompt_v3.sh
+```
 ## Citation
 If you use our work, please consider citing:
 ```bibtex

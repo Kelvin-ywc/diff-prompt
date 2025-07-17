@@ -46,6 +46,10 @@ DiT-main/cmd
 DiT-main/ckpt
 DiT-main/bert-base-uncased
 
-GLIP/
+GLIP/build
+GLIP/bert-base-uncased
+GLIP/DATASET
+GLIP/maskrcnn_benchmark.egg-info
+
 unique_vae/logs/*
 unique_vae/data/*
